@@ -1,0 +1,28 @@
+2023-01-22 21:51:44 error: [Cake\Http\Exception\MissingControllerException] Controller class PersonnesController could not be found. in C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'PersonnesController',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\test\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\test\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\test\webroot\index.php:40
+
+Request URL: /
